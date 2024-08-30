@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "bsp_spi_bus.h": "c",
+        "bsp_spi_flash_w25q64_driver.h": "c"
+    }
+}
