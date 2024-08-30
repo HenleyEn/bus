@@ -53,13 +53,14 @@ uint32_t bsp_w25q64_read_id(void)
 
 	/* Reception of the data */
 	spi_flash_w25q64.receive(spi_flash_w25q64, &id, 3,W25Qx_TIMEOUT_VALUE);
-	
+
 	bsp_w25q64_set_cs(1);
 }
 
 void bsp_w25q64_erase_chip(void)
 {
 }
+
 void bsp_w25q64_erase_sector(uint32_t sector_addr)
 {
 }
